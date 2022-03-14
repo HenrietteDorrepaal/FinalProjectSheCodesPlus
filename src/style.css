@@ -1,20 +1,16 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background: linear-gradient(
-    89.8deg,
-    rgb(204, 156, 223) 0.3%,
-    rgb(155, 219, 245) 20.4%,
-    rgb(245, 183, 208) 40.2%,
-    rgb(250, 186, 98) 62.9%,
-    rgb(234, 238, 240) 81.9%,
-    rgb(250, 245, 171) 99.2%
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(255, 246, 236) 39.5%,
+    rgba(100, 46, 122, 0.23) 100.2%
   );
   margin-top: 25px;
 }
 
 h1 {
   font-family: "Cabin Sketch", cursive;
-  color: #202124;
+  color: black;
   font-size: 50px;
   font-weight: 100;
   line-height: 28px;
@@ -24,9 +20,14 @@ h1 {
 
 h2 {
   font-family: "Cabin Sketch", cursive;
+  color: black;
   font-size: 20px;
   text-align: center;
-  margin-top: 80px;
+  margin-top: 0px;
+}
+
+img {
+  
 }
 
 ul {
@@ -40,7 +41,7 @@ li {
   margin: 0;
   padding: 0;
 
-  color: rgb(135, 135, 135);
+  color: black);
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
@@ -59,7 +60,9 @@ li:first-letter {
   padding: 20px;
   border: 1px solid #adafb3;
   border-radius: 5px;
-  background-color: rgb(236, 191, 245);
+  background-image: url(https://i.pinimg.com/564x/7c/08/5b/7c085bca72e89246cace1a84300a6ba5.jpg);
+  opacity: 1.0;
+  max-width: 500px;
 }
 
 .weather-temperature img {
@@ -116,6 +119,6 @@ a {
 }
 
 .btn-primary {
-  background-color: #d80dfd;
-  border-color: blueviolet;
+  background-color: #f56565;
+  border-color: rgb(240, 216, 216);
 }
